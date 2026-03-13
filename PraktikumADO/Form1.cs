@@ -16,6 +16,8 @@ namespace PraktikumADO
         public Form1()
         {
             InitializeComponent();
+            SqlConnection conn;
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
