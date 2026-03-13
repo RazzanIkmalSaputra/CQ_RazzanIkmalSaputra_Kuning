@@ -28,58 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnConnect = new System.Windows.Forms.Button();
+            this.btnHitungMhs = new System.Windows.Forms.Button();
+            this.btnHitungMK = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.textHasil1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnConnect
             // 
-            this.button1.Location = new System.Drawing.Point(512, 421);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 52);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "connect";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnConnect.Location = new System.Drawing.Point(512, 421);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.Size = new System.Drawing.Size(91, 52);
+            this.btnConnect.TabIndex = 0;
+            this.btnConnect.Text = "Connect";
+            this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnHitungMhs
             // 
-            this.button2.Location = new System.Drawing.Point(662, 421);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 52);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Hitung Mhs ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnHitungMhs.Location = new System.Drawing.Point(662, 421);
+            this.btnHitungMhs.Name = "btnHitungMhs";
+            this.btnHitungMhs.Size = new System.Drawing.Size(135, 52);
+            this.btnHitungMhs.TabIndex = 1;
+            this.btnHitungMhs.Text = "Hitung Mhs ";
+            this.btnHitungMhs.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnHitungMK
             // 
-            this.button3.Location = new System.Drawing.Point(860, 421);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 52);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Hitung MK";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnHitungMK.Location = new System.Drawing.Point(860, 421);
+            this.btnHitungMK.Name = "btnHitungMK";
+            this.btnHitungMK.Size = new System.Drawing.Size(118, 52);
+            this.btnHitungMK.TabIndex = 2;
+            this.btnHitungMK.Text = "Hitung MK";
+            this.btnHitungMK.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnUpdate
             // 
-            this.button4.Location = new System.Drawing.Point(1066, 421);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 52);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Update";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnUpdate.Location = new System.Drawing.Point(1066, 421);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(96, 52);
+            this.btnUpdate.TabIndex = 3;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox1
+            // textHasil1
             // 
-            this.textBox1.Location = new System.Drawing.Point(683, 226);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(398, 22);
-            this.textBox1.TabIndex = 4;
+            this.textHasil1.Location = new System.Drawing.Point(683, 226);
+            this.textHasil1.Name = "textHasil1";
+            this.textHasil1.Size = new System.Drawing.Size(398, 22);
+            this.textHasil1.TabIndex = 4;
             // 
             // label1
             // 
@@ -97,11 +97,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1736, 680);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textHasil1);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnHitungMK);
+            this.Controls.Add(this.btnHitungMhs);
+            this.Controls.Add(this.btnConnect);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -112,11 +112,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnConnect;
+        private System.Windows.Forms.Button btnHitungMhs;
+        private System.Windows.Forms.Button btnHitungMK;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.TextBox textHasil1;
         private System.Windows.Forms.Label label1;
     }
 }
