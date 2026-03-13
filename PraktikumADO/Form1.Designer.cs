@@ -108,6 +108,7 @@
             this.btnSKS.Location = new System.Drawing.Point(781, 535);
             this.btnSKS.Name = "btnSKS";
             this.btnSKS.Size = new System.Drawing.Size(75, 23);
+
             this.btnSKS.TabIndex = 7;
             this.btnSKS.Text = " SKS";
             this.btnSKS.UseVisualStyleBackColor = true;
