@@ -61,6 +61,11 @@ namespace PraktikumADO
                 conn.Close();
             }
 
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
 
         private void btnHitungMK_Click(object sender, EventArgs e)
@@ -79,6 +84,11 @@ namespace PraktikumADO
                 txtHasil.Text = jumlahMK.ToString();
 
                 conn.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
 
         }

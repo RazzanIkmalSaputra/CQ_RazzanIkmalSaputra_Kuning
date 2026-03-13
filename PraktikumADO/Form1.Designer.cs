@@ -32,8 +32,11 @@
             this.btnHitungMhs = new System.Windows.Forms.Button();
             this.btnHitungMK = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.textHasil1 = new System.Windows.Forms.TextBox();
+            this.txtHasil = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnNambahData = new System.Windows.Forms.Button();
+            this.btnSKS = new System.Windows.Forms.Button();
+            this.btnKodeMK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -44,7 +47,6 @@
             this.btnConnect.TabIndex = 0;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
-            this.btnConnect.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnHitungMhs
             // 
@@ -72,39 +74,68 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.button4_Click);
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // textHasil1
+            // txtHasil
             // 
-            this.textHasil1.Location = new System.Drawing.Point(683, 226);
-            this.textHasil1.Name = "textHasil1";
-            this.textHasil1.Size = new System.Drawing.Size(398, 22);
-            this.textHasil1.TabIndex = 4;
+            this.txtHasil.Location = new System.Drawing.Point(593, 226);
+            this.txtHasil.Name = "txtHasil";
+            this.txtHasil.Size = new System.Drawing.Size(398, 22);
+            this.txtHasil.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(592, 226);
+            this.label1.Location = new System.Drawing.Point(507, 222);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 25);
             this.label1.TabIndex = 5;
             this.label1.Text = "Hasil ";
+            // 
+            // btnNambahData
+            // 
+            this.btnNambahData.Location = new System.Drawing.Point(512, 535);
+            this.btnNambahData.Name = "btnNambahData";
+            this.btnNambahData.Size = new System.Drawing.Size(113, 23);
+            this.btnNambahData.TabIndex = 6;
+            this.btnNambahData.Text = "Tambah data";
+            this.btnNambahData.UseVisualStyleBackColor = true;
+            // 
+            // btnSKS
+            // 
+            this.btnSKS.Location = new System.Drawing.Point(790, 535);
+            this.btnSKS.Name = "btnSKS";
+            this.btnSKS.Size = new System.Drawing.Size(75, 23);
+            this.btnSKS.TabIndex = 7;
+            this.btnSKS.Text = " SKS";
+            this.btnSKS.UseVisualStyleBackColor = true;
+            // 
+            // btnKodeMK
+            // 
+            this.btnKodeMK.Location = new System.Drawing.Point(997, 535);
+            this.btnKodeMK.Name = "btnKodeMK";
+            this.btnKodeMK.Size = new System.Drawing.Size(75, 23);
+            this.btnKodeMK.TabIndex = 8;
+            this.btnKodeMK.Text = "KodeMK";
+            this.btnKodeMK.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1736, 680);
+            this.Controls.Add(this.btnKodeMK);
+            this.Controls.Add(this.btnSKS);
+            this.Controls.Add(this.btnNambahData);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textHasil1);
+            this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnHitungMK);
             this.Controls.Add(this.btnHitungMhs);
             this.Controls.Add(this.btnConnect);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,8 +147,11 @@
         private System.Windows.Forms.Button btnHitungMhs;
         private System.Windows.Forms.Button btnHitungMK;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.TextBox textHasil1;
+        private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnNambahData;
+        private System.Windows.Forms.Button btnSKS;
+        private System.Windows.Forms.Button btnKodeMK;
     }
 }
 
