@@ -56,11 +56,14 @@ namespace PraktikumADO
 
                 int jumlahMhs = (int)cmd.ExecuteScalar();  
 
+                txtHasil .Text = jumlahMhs.ToString();  
+
+                conn.Close();
             }
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btn(object sender, EventArgs e)
         {
 
         }
