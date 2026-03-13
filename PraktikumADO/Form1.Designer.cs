@@ -101,24 +101,27 @@
             this.btnNambahData.TabIndex = 6;
             this.btnNambahData.Text = "Tambah data";
             this.btnNambahData.UseVisualStyleBackColor = true;
+            this.btnNambahData.Click += new System.EventHandler(this.btnNambahData_Click);
             // 
             // btnSKS
             // 
-            this.btnSKS.Location = new System.Drawing.Point(790, 535);
+            this.btnSKS.Location = new System.Drawing.Point(781, 535);
             this.btnSKS.Name = "btnSKS";
             this.btnSKS.Size = new System.Drawing.Size(75, 23);
             this.btnSKS.TabIndex = 7;
             this.btnSKS.Text = " SKS";
             this.btnSKS.UseVisualStyleBackColor = true;
+            this.btnSKS.Click += new System.EventHandler(this.btnSKS_Click);
             // 
             // btnKodeMK
             // 
-            this.btnKodeMK.Location = new System.Drawing.Point(997, 535);
+            this.btnKodeMK.Location = new System.Drawing.Point(1000, 535);
             this.btnKodeMK.Name = "btnKodeMK";
             this.btnKodeMK.Size = new System.Drawing.Size(75, 23);
             this.btnKodeMK.TabIndex = 8;
             this.btnKodeMK.Text = "KodeMK";
             this.btnKodeMK.UseVisualStyleBackColor = true;
+            this.btnKodeMK.Click += new System.EventHandler(this.btnKodeMK_Click);
             // 
             // Form1
             // 
