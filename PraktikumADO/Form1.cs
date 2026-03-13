@@ -16,9 +16,15 @@ namespace PraktikumADO
         public Form1()
         {
             InitializeComponent();
-            SqlConnection conn;
-
         }
+        SqlConnection conn;
+        SqlCommand cmd;
+
+        private void Koneksi()
+        {
+            string strKoneksi = "Data Source=LAPTOP-VOL6TF2T\\RAZZAN;Initial Catalog=DBAkademikADO;Integrated Security=True";
+            conn = new SqlConnection(strKoneksi);
+        }   
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
