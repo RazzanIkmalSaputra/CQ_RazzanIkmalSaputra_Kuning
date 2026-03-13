@@ -162,6 +162,7 @@ namespace PraktikumADO
                 conn.Close();
             }
             catch (Exception ex) { MessageBox.Show("Gagal/Sudah ada: " + ex.Message); }
+
         }
     }
 }
