@@ -26,12 +26,24 @@ namespace PraktikumADO
             conn = new SqlConnection(strKoneksi);
         }   
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void btnConnect_click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
 
+                MessageBox.Show("Koneksi ke database berhasil");
+
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnHitung(object sender, EventArgs e)
         {
 
         }
