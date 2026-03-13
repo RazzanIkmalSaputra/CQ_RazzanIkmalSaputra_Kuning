@@ -63,8 +63,23 @@ namespace PraktikumADO
 
         }
 
-        private void btn(object sender, EventArgs e)
+        private void btnHitungMK_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
+
+                string strQuery = "SELECT COUNT(*) FROM MataKuliah";
+
+                cmd = new SqlCommand(strQuery, conn); 
+
+                int jumlahMK = (int)cmd.ExecuteScalar();
+
+                txtHasil.Text = jumlahMK.ToString();
+
+                conn.Close();
+            }
 
         }
 
